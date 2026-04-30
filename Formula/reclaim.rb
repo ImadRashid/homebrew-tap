@@ -1,28 +1,28 @@
 class Reclaim < Formula
   desc "Developer-aware Mac cleaner CLI"
   homepage "https://github.com/ImadRashid/reclaim"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ImadRashid/reclaim/releases/download/v#{version}/reclaim_v#{version}_darwin_arm64.tar.gz"
-      sha256 "fcb98550441776aa47aaecd75e4c53b144a340bcbd8837677acdf98362ef6540"
+      sha256 "6163a5436d8f3d4a7cfd64ac8777126a4229b7350b6bcf290e38f3706aba20fd"
     end
     on_intel do
       url "https://github.com/ImadRashid/reclaim/releases/download/v#{version}/reclaim_v#{version}_darwin_amd64.tar.gz"
-      sha256 "d8e6867107d25a088c4d0a5341b97e3e40aecdca6fbd1484f926e1692ff78918"
+      sha256 "e7f2fd69ee363b533668a5bf3ee89af415808e8a1f369f09fdea2d4601070130"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ImadRashid/reclaim/releases/download/v#{version}/reclaim_v#{version}_linux_arm64.tar.gz"
-      sha256 "92994286d1e84d2ecd23a46c3581c94a96cc2eefcf1de1df627d512871c0d93d"
+      sha256 "9a201f29d41d343dcd90b21d35d1d4bedbf0a3979d16938e16918e46f3520db6"
     end
     on_intel do
       url "https://github.com/ImadRashid/reclaim/releases/download/v#{version}/reclaim_v#{version}_linux_amd64.tar.gz"
-      sha256 "a060303b5e809e2541b1afc74e06cfaad72dd64ba6934b6253cb006c96422f7d"
+      sha256 "e7993b8d61689a018473ac8b58bb84ca795c76f43d8416f9051951c35a505b0f"
     end
   end
 
